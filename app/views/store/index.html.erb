@@ -4,9 +4,7 @@
 
 <h1>Your Pragmatic Catalog</h1>
 <h2>Session Count: 
-    <% if session[:counter] > 5 %>
-        <%= pluralize(session[:counter], 'visit') %>
-    <% end %>
+    <%= pluralize(session[:counter], 'visit') %>
 </h2>
 
 <ul class="catalog">
