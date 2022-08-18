@@ -5,6 +5,7 @@ one:
   description: MyText
   image_url: lorem.jpg
   price: 9.99
+  id: 1
 
 two:
   title: MyString2

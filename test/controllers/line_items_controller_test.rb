@@ -22,8 +22,8 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
 
     follow_redirect!
 
-    assert_select 'h2', 'Your Pragmatic Cart'
-    assert_select 'td', 'Programming Ruby 1.9'
+    assert_select 'h1', 'Your Pragmatic Catalog'
+    assert_select 'h2', 'Programming Ruby 1.9'
   end
 
   test "should create line_item via ajax" do
