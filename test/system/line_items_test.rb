@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class LineItemsTest < ApplicationSystemTestCase
   setup do
-    @line_item = line_items(:one)
+    @line_item = line_items(:two)
   end
 
   test "visiting the index" do
@@ -15,7 +15,7 @@ class LineItemsTest < ApplicationSystemTestCase
     click_on "New Line Item"
 
     fill_in "Cart", with: @line_item.cart_id
-    fill_in "Product", with: @line_item.product_id
+    fill_in "Product", with: 2
     click_on "Create Line item"
 
     assert_text "Line item was successfully created"

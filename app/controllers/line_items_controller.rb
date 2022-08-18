@@ -23,6 +23,7 @@ class LineItemsController < ApplicationController
 
   # POST /line_items or /line_items.json
   def create
+    # TODO: Fix Error ActiveRecord::RecordNotFound: Couldn't find Product without an ID (no idea what causes??)
     product = Product.find(params[:product_id])
     @line_item = @cart.add_product(product)
     # session[:counter] = 0
