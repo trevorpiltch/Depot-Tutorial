@@ -1,24 +1,11 @@
-# README
+# Demo Depot Application 💎
+The demo application for (Agile Web Development with Rails 6)[https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/#resources].
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Concepts Learned
+- Intro Rails concepts (models, controllers, db, migrations)
+- MVC web app architecture
+- Intro Javascript concepts (exports, React components)
+- Webpack and channels
+- Internationalization through I18n
+- Unit tests, system tests, fixtures, and helpers
+- Emailing the user and responding to the user through rich text

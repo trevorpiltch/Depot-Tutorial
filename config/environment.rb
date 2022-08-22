@@ -1,5 +1,6 @@
 # Load the Rails application.
 require_relative "application"
+require "i18n-js"
 
 # Initialize the Rails application.
 Rails.application.initialize!
@@ -15,4 +16,5 @@ Rails.application.configure do
         password: "secret", 
         enablestartls_auto: true
     }
+    # config.middleware.use I18nJS
 end 
