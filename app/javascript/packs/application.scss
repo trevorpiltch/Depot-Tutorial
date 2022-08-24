@@ -13,6 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ 
+
+@import "css/actiontext.scss";
+@import "css/sessions.scss";
+@import "css/users.scss";
+@import "css/scaffolds.scss";
+@import "css/line_items.scss";
+@import "css/carts.scss";
+@import "css/products.scss";
+@import "css/orders.scss";
+@import "css/store.scss";
+@import "css/admin.scss";
 
  body {
     margin: 0;
